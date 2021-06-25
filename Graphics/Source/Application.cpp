@@ -38,7 +38,7 @@ int main()
 
         -0.5f,-0.5f,
          0.5f,-0.5f,
-         0.0f, 0.5f
+         0.5f, 0.5f
     };
 
     unsigned int vb;
@@ -62,7 +62,7 @@ int main()
 
 
             /* Swap front and back buffers */
-            glfwSwapBuffers(window);
+            glfwSwapBuffers(window); 
 
             /* Poll for and process events */
             glfwPollEvents();
